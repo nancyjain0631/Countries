@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		E645E48B27D871A800448B43 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E645E48A27D871A800448B43 /* DetailsViewController.swift */; };
 		E645E48E27D8731700448B43 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E645E48D27D8731700448B43 /* ModelData.swift */; };
+		E6A4578227D9FE11006CF3EB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A4578027D9FE11006CF3EB /* TableViewCell.swift */; };
+		E6A4578327D9FE11006CF3EB /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6A4578127D9FE11006CF3EB /* TableViewCell.xib */; };
 		E6B85F8127D7CFDF00DF54BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B85F8027D7CFDF00DF54BE /* AppDelegate.swift */; };
 		E6B85F8327D7CFDF00DF54BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B85F8227D7CFDF00DF54BE /* SceneDelegate.swift */; };
 		E6B85F8527D7CFDF00DF54BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B85F8427D7CFDF00DF54BE /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 /* Begin PBXFileReference section */
 		E645E48A27D871A800448B43 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		E645E48D27D8731700448B43 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		E6A4578027D9FE11006CF3EB /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E6A4578127D9FE11006CF3EB /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		E6B85F7D27D7CFDF00DF54BE /* Assign1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assign1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6B85F8027D7CFDF00DF54BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6B85F8227D7CFDF00DF54BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +78,8 @@
 				E6B85F8427D7CFDF00DF54BE /* ViewController.swift */,
 				E645E48A27D871A800448B43 /* DetailsViewController.swift */,
 				E6B85F8627D7CFDF00DF54BE /* Main.storyboard */,
+				E6A4578027D9FE11006CF3EB /* TableViewCell.swift */,
+				E6A4578127D9FE11006CF3EB /* TableViewCell.xib */,
 				E6B85F8927D7CFE100DF54BE /* Assets.xcassets */,
 				E6B85F8B27D7CFE100DF54BE /* LaunchScreen.storyboard */,
 				E6B85F8E27D7CFE100DF54BE /* Info.plist */,
@@ -140,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6B85F8D27D7CFE100DF54BE /* LaunchScreen.storyboard in Resources */,
+				E6A4578327D9FE11006CF3EB /* TableViewCell.xib in Resources */,
 				E6B85F8A27D7CFE100DF54BE /* Assets.xcassets in Resources */,
 				E6B85F8827D7CFDF00DF54BE /* Main.storyboard in Resources */,
 			);
@@ -155,6 +162,7 @@
 				E6B85F8527D7CFDF00DF54BE /* ViewController.swift in Sources */,
 				E6B85F8127D7CFDF00DF54BE /* AppDelegate.swift in Sources */,
 				E645E48E27D8731700448B43 /* ModelData.swift in Sources */,
+				E6A4578227D9FE11006CF3EB /* TableViewCell.swift in Sources */,
 				E6B85F8327D7CFDF00DF54BE /* SceneDelegate.swift in Sources */,
 				E645E48B27D871A800448B43 /* DetailsViewController.swift in Sources */,
 			);
