@@ -39,23 +39,17 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return cell!
         
         
-        //solution 2
+        //      solution 2
         
-        //let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath as IndexPath) as! TableViewCell
-       
+        /*let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath as IndexPath) as! TableViewCell
+        cell.imageCellLbl.image = modelData[indexPath.row].countryInfo.flag
+        cell.imageCellLbl.image = modelData[UIImage(named:  indexPath.row)].countryInfo.flag
+        var modelData1:ModelData?
+        cell.imageCellLbl.image = UIImageView.URL((string: modelData1?.countryInfo.flag)!)
+        cell.cellLbl.text = modelData[indexPath.row].country.capitalized
+        return cell*/
         
-        
-        //cell.imageCellLbl.image = modelData[indexPath.row].countryInfo.flag
-    
-       
-        //cell.imageCellLbl.image = modelData[UIImage(named:  indexPath.row)].countryInfo.flag
-        //var modelData1:ModelData?
-        //cell.imageCellLbl.image = UIImageView.URL((string: modelData1?.countryInfo.flag)!)
-        
-        //cell.cellLbl.text = modelData[indexPath.row].country.capitalized
-        //return cell
-        
-        //solution 1
+        //      solution 1
         
         /*let cell = UITableViewCell(style: .default, reuseIdentifier: nil)
         cell.textLabel?.text = modelData[indexPath.row].country.capitalized
